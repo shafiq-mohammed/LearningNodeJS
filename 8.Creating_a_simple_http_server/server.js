@@ -36,6 +36,7 @@ function onRequest(request, response) {
 	//Signifies that the response is ending.
 	response.end();
 }
+//
 /*The only thing you need to do to turn your NodeJS code into a serve is this:
 The parameter, the requestListener, is essentially your callback (what code do 
 you wanna run whenever a user wants to connect to your server?) and this function 
